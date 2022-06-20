@@ -263,9 +263,9 @@ extension SwiftMatrix {
     /// Performs base logarithm operation over the matrix.
     ///
     /// - Returns: new matrix.
-    public func log () -> SwiftMatrix? {
-        return SwiftMatrix(self.values.map({ (value) -> Double in Darwin.log(value)}), dimensions: self.dimensions)
-    }
+  ///  public func log () -> SwiftMatrix? {
+     //   return SwiftMatrix(self.values.map({ (value) -> Double in Darwin.log(value)}), dimensions: self.dimensions)
+  ///  }
 
     /// Performs dot product operation between two matrixes if possible.
     ///
